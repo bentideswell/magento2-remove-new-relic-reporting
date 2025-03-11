@@ -2,9 +2,10 @@
     "name": "fishpig/magento2-remove-new-relic-reporting",
     "description": "Remove Magento_NewRelicReporting and provide Mocks.",
     "type": "project",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "replace": {
-        "magento/module-new-relic-reporting": "*"
+        "magento/module-new-relic-reporting": "*",
+        "magento/module-graph-ql-new-relic": "*"
     },
     "autoload": {
         "psr-4": {
